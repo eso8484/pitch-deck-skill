@@ -12,10 +12,16 @@ It never invents traction, customers, team or numbers. Anything it can't confirm
 ## Install
 
 ```bash
+npx skillfish add eso8484/pitch-deck-skill
+```
+
+That installs it into every AI coding agent on your machine (Claude Code, Cursor, Copilot and more). Or, for Claude Code only:
+
+```bash
 npx pitch-deck-skill
 ```
 
-This copies the skill to `~/.claude/skills/pitch-deck`, so it works in every folder. To install into the current folder only:
+`npx pitch-deck-skill` copies the skill to `~/.claude/skills/pitch-deck`, so it works in every folder. To install into the current folder only:
 
 ```bash
 npx pitch-deck-skill --project
@@ -36,3 +42,7 @@ Then open Claude Code and say *"Make me a pitch deck for investors"*, or type `/
 npx pitch-deck-skill@latest          # update (your old copy is backed up to the temp folder)
 npx pitch-deck-skill --uninstall
 ```
+
+## Author
+
+Made by [eso8484](https://github.com/eso8484). MIT licensed.

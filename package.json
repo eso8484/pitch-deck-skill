@@ -7,8 +7,9 @@
   },
   "files": [
     "bin/",
-    "skill/",
-    "README.md"
+    "skills/",
+    "README.md",
+    "LICENSE"
   ],
   "engines": {
     "node": ">=16.7"
@@ -21,5 +22,11 @@
     "investor-deck",
     "startup"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "author": "eso8484 (https://github.com/eso8484)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eso8484/pitch-deck-skill.git"
+  },
+  "homepage": "https://github.com/eso8484/pitch-deck-skill#readme"
 }

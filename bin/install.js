@@ -11,7 +11,7 @@ const path = require("path");
 const { spawnSync } = require("child_process");
 
 const SKILL = "pitch-deck";
-const SRC = path.join(__dirname, "..", "skill");
+const SRC = path.join(__dirname, "..", "skills", "pitch-deck");
 const pkg = require("../package.json");
 const args = new Set(process.argv.slice(2));
 
