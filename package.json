@@ -1,0 +1,25 @@
+{
+  "name": "pitch-deck-skill",
+  "version": "1.0.0",
+  "description": "Claude Code skill that builds a designed startup pitch deck (PDF) from your codebase, your business plan, or your website.",
+  "bin": {
+    "pitch-deck-skill": "bin/install.js"
+  },
+  "files": [
+    "bin/",
+    "skill/",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=16.7"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "skill",
+    "pitch-deck",
+    "investor-deck",
+    "startup"
+  ],
+  "license": "MIT"
+}
